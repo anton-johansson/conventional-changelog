@@ -1,0 +1,7 @@
+# 
+{{~#if @root.repositoryURL}}
+ [{{version}}]({{@root.repositoryURL}}/compare/{{previousTagName}}...{{tagName}})
+{{~else}}
+ {{version}}
+{{~/if}}
+ ({{createdAt}})

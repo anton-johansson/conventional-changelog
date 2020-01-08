@@ -1,0 +1,28 @@
+0000000000000000000000000000000000000000 cd047a8175e712bfce41d76aa6b5fd50431693f5 Anton Johansson <hello@anton-johansson.com> 1584044879 +0100	commit (initial): feat: Initial commit
+cd047a8175e712bfce41d76aa6b5fd50431693f5 ae15ad8477f67dfb1eb2bfb8e5aab41b4a895a47 Anton Johansson <hello@anton-johansson.com> 1584044904 +0100	commit: feat: Introduce new feature X
+ae15ad8477f67dfb1eb2bfb8e5aab41b4a895a47 225ca43cd1b3dfafe13bf822e78bcda2dc7cba17 Anton Johansson <hello@anton-johansson.com> 1584045064 +0100	rebase -i (start): checkout 225ca43cd1b3dfafe13bf822e78bcda2dc7cba17
+225ca43cd1b3dfafe13bf822e78bcda2dc7cba17 cd047a8175e712bfce41d76aa6b5fd50431693f5 Anton Johansson <hello@anton-johansson.com> 1584045064 +0100	rebase -i: fast-forward
+cd047a8175e712bfce41d76aa6b5fd50431693f5 81d2c87db7de6707b913f2d45b62a1ce4b7e6fa6 Anton Johansson <hello@anton-johansson.com> 1584045079 +0100	rebase -i (continue): feat: Initial commit
+81d2c87db7de6707b913f2d45b62a1ce4b7e6fa6 a4cf33aab9d7b879d06fc2b29e2d90d96b82cb1b Anton Johansson <hello@anton-johansson.com> 1584045082 +0100	rebase -i (pick): feat: Introduce new feature X
+a4cf33aab9d7b879d06fc2b29e2d90d96b82cb1b a4cf33aab9d7b879d06fc2b29e2d90d96b82cb1b Anton Johansson <hello@anton-johansson.com> 1584045082 +0100	rebase -i (finish): returning to refs/heads/master
+a4cf33aab9d7b879d06fc2b29e2d90d96b82cb1b 5b96c10a0328103b8ff285442814916e06c6ea10 Anton Johansson <hello@anton-johansson.com> 1584045093 +0100	commit: release: 1.0.0
+5b96c10a0328103b8ff285442814916e06c6ea10 f7cc8b4ee478f4ece2f3e89c2a2c08831f919b61 Anton Johansson <hello@anton-johansson.com> 1584045450 +0100	commit: chore: Prepare for the next development iteration
+f7cc8b4ee478f4ece2f3e89c2a2c08831f919b61 66f49d54f8251f33f13ce6a4991d741d9aba0223 Anton Johansson <hello@anton-johansson.com> 1584045473 +0100	commit: feat: New awesome feature
+66f49d54f8251f33f13ce6a4991d741d9aba0223 8b3a2b08e6eddfaceac4c613da5904c72c8387c3 Anton Johansson <hello@anton-johansson.com> 1584045721 +0100	commit: ci: Fix pipeline
+8b3a2b08e6eddfaceac4c613da5904c72c8387c3 1ca33ebdb7ef37aa0cde4c99c869e2403c751924 Anton Johansson <hello@anton-johansson.com> 1584045736 +0100	commit: fix: Fix a nasty bug
+1ca33ebdb7ef37aa0cde4c99c869e2403c751924 94ed28cbdb6370a4d0c26a97e845511bdd2e4603 Anton Johansson <hello@anton-johansson.com> 1584045861 +0100	commit: release: 1.1.0
+94ed28cbdb6370a4d0c26a97e845511bdd2e4603 02f52119c1e36f90f76a1ff7013b11a0c43e809d Anton Johansson <hello@anton-johansson.com> 1584045909 +0100	commit: chore: Prepare for the next development iteration
+02f52119c1e36f90f76a1ff7013b11a0c43e809d 7d3347152947d9133dd0042a00daa5e5b5cc5339 Anton Johansson <hello@anton-johansson.com> 1584045927 +0100	commit: feat: Simple new feature
+7d3347152947d9133dd0042a00daa5e5b5cc5339 6712781e91b7e9716ccf4f1cf496cbd618be3438 Anton Johansson <hello@anton-johansson.com> 1584045943 +0100	commit: feat: Feature that closes a lot of issues
+6712781e91b7e9716ccf4f1cf496cbd618be3438 85f43997d6541dedca968b920053cf694891c1de Anton Johansson <hello@anton-johansson.com> 1584046051 +0100	commit: fix: Solve weird issue
+85f43997d6541dedca968b920053cf694891c1de 85f43997d6541dedca968b920053cf694891c1de Anton Johansson <hello@anton-johansson.com> 1584046085 +0100	reset: moving to 85f43997d6541dedca968b920053cf694891c1de
+85f43997d6541dedca968b920053cf694891c1de 8c24ae096fa68af4a0f8969ee609ad8a2062692f Anton Johansson <hello@anton-johansson.com> 1584046103 +0100	commit: feat: Add new risky feature
+8c24ae096fa68af4a0f8969ee609ad8a2062692f 9ecfc2389453ba90e870d0ae0835aaac20cf0d21 Anton Johansson <hello@anton-johansson.com> 1584046123 +0100	commit: fix: Fix unwanted error
+9ecfc2389453ba90e870d0ae0835aaac20cf0d21 8423cd42256fec670db76e9d8f53585686597ed6 Anton Johansson <hello@anton-johansson.com> 1584046140 +0100	revert: revert: feat: Add new risky feature
+8423cd42256fec670db76e9d8f53585686597ed6 1e817fa8a69d68ba88443054afeafa99d6ec2ef9 Anton Johansson <hello@anton-johansson.com> 1584046245 +0100	commit: feat(component): Add new cool feature
+1e817fa8a69d68ba88443054afeafa99d6ec2ef9 9a6175453beff5a1553e5197ebbb72c6299c72aa Anton Johansson <hello@anton-johansson.com> 1584046289 +0100	commit: perf(loader): Make loader faster
+9a6175453beff5a1553e5197ebbb72c6299c72aa 5b96c10a0328103b8ff285442814916e06c6ea10 Anton Johansson <hello@anton-johansson.com> 1584048522 +0100	checkout: moving from master to 5b96c10a0328103b8ff285442814916e06c6ea10
+5b96c10a0328103b8ff285442814916e06c6ea10 9a6175453beff5a1553e5197ebbb72c6299c72aa Anton Johansson <hello@anton-johansson.com> 1584048535 +0100	checkout: moving from 5b96c10a0328103b8ff285442814916e06c6ea10 to 9a6175453beff5a1553e5197ebbb72c6299c72aa
+9a6175453beff5a1553e5197ebbb72c6299c72aa 94ed28cbdb6370a4d0c26a97e845511bdd2e4603 Anton Johansson <hello@anton-johansson.com> 1584048544 +0100	checkout: moving from 9a6175453beff5a1553e5197ebbb72c6299c72aa to 94ed28cbdb6370a4d0c26a97e845511bdd2e4603
+94ed28cbdb6370a4d0c26a97e845511bdd2e4603 9a6175453beff5a1553e5197ebbb72c6299c72aa Anton Johansson <hello@anton-johansson.com> 1584048548 +0100	checkout: moving from 94ed28cbdb6370a4d0c26a97e845511bdd2e4603 to 9a6175453beff5a1553e5197ebbb72c6299c72aa
+9a6175453beff5a1553e5197ebbb72c6299c72aa 9a6175453beff5a1553e5197ebbb72c6299c72aa Anton Johansson <hello@anton-johansson.com> 1584048560 +0100	checkout: moving from 9a6175453beff5a1553e5197ebbb72c6299c72aa to master

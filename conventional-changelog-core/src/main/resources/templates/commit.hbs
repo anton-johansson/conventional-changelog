@@ -1,0 +1,18 @@
+* {{#if scope}}**{{scope}}:** {{/if}}{{title~}}
+{{#if @root.repositoryURL}}
+ ([{{shortHash}}]({{@root.repositoryURL}}/{{hash}}))
+{{~else}}
+ ({{shortHash}})
+{{~/if~}}
+
+{{~#if references~}}
+, closes
+{{~#each references}}
+{{#if @root.repositoryURL}}
+ [{{prefix}}{{issue}}]({{@root.repositoryURL}}/issues/{{issue}})
+{{~else}}
+ {{prefix}}{{issue}}
+{{~/if}}
+{{~/each}}
+{{/if}}
+

@@ -1,0 +1,15 @@
+{{~#if noteGroups~}}
+{{~#each noteGroups}}
+### {{title}}
+
+{{#each notes}}
+* {{#if commit.scope}}**{{commit.scope}}:** {{/if}}{{text~}}
+{{#if @root.repositoryURL}}
+ ([{{commit.shortHash}}]({{@root.repositoryURL}}/{{commit.hash}}))
+{{else}}
+ ({{commit.shortHash}})
+{{/if}}
+{{/each}}
+{{/each}}
+
+{{/if}}
