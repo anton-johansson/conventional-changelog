@@ -3,6 +3,11 @@
 Generates changelogs from Git metadata.
 
 
+## Maturity
+
+This project is still during beta, but feel free to use it to test it out!
+
+
 ## Usage
 
 This library can be used in two different ways. The first one - and probably the most useful one - takes the form of a Maven plugin. The other one is a regular Java library that can be used to directly use the changelog API. This artifact is used by the Maven plugin.
