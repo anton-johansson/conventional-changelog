@@ -23,7 +23,7 @@
     <parent>
         <groupId>com.anton-johansson</groupId>
         <artifactId>conventional-changelog</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.1.0</version>
     </parent>
     <artifactId>conventional-changelog-core</artifactId>
     <name>Anton Johansson :: Conventional changelog :: Core</name>
