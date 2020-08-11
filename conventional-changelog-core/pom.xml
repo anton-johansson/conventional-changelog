@@ -29,11 +29,6 @@
     <name>Anton Johansson :: Conventional changelog :: Core</name>
     <description>Provides the core utility for the conventional changelog tools.</description>
 
-    <properties>
-        <!-- Build -->
-        <maven.javadoc.skip>true</maven.javadoc.skip>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.apache.commons</groupId>

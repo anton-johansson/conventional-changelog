@@ -29,11 +29,6 @@
     <packaging>maven-plugin</packaging>
     <name>Anton Johansson :: Conventional changelog :: Maven plugin</name>
 
-    <properties>
-        <!-- Build -->
-        <maven.javadoc.skip>true</maven.javadoc.skip>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>com.anton-johansson</groupId>
